@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "allow" },
+    "condition": {
+      "urlFilter": "https://m.dcinside.com/board/*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

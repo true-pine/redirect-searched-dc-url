@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box; /* padding 포함 */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+}
+
+#title {
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: large;
+}
+
+#description {
+    font-size: small;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature input {
+    margin-right: 10px; /* 체크박스와 레이블 간격 */
+}
+
+label {
+    font-size: small;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: small;
+    color: gray;
+    text-align: center; /* 중앙 정렬 */
+}

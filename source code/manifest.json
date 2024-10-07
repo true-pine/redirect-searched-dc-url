@@ -1,0 +1,27 @@
+{
+    "name": "디씨 모바일 URL 리다이렉트",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "접속이 원활하지 않은 디씨 모바일 URL을 PC URL로 리다이렉트 하는 확장프로그램",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules_1.json"
+            }
+        ]
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ]
+}
